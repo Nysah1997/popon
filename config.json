@@ -1,0 +1,53 @@
+{
+  "bot_settings": {
+    "command_prefix": "!",
+    "description": "Bot de seguimiento de tiempo para Discord",
+    "activity_name": "Rastreando tiempos de usuarios",
+    "activity_type": "watching"
+  },
+  "time_tracking": {
+    "auto_voice_tracking": false,
+    "save_interval_minutes": 5,
+    "cleanup_inactive_days": 30,
+    "max_time_hours": 168
+  },
+  "permissions": {
+    "admin_only_commands": false,
+    "allowed_roles": [],
+    "allowed_users": []
+  },
+  "display": {
+    "language": "es",
+    "timezone": "UTC",
+    "date_format": "%d/%m/%Y %H:%M:%S",
+    "embed_color": "#3498db"
+  },
+  "notification_channels": {
+    "milestones": 1382195219939852479,
+    "pauses": 1382194854078971975,
+    "cancellations": 1382194963986649219,
+    "unpause": 1382194907170734200,
+    "attendances": 1386940402128523316,
+    "movements": 1382193854299504761
+  },
+  "gold_role_id": 1382198935971430440,
+  "alto_role_id": 1400892621391528046,
+  "supervisor_role_id": 1400892902405574789,
+  "silver_role_id": 1400892813889110057,
+  "expediente_role_id": 1400893039693533370,
+  "command_permission_role_id": 1384620398485832000,
+  "mi_tiempo_role_id": 1366550916752216221,
+  "discord_bot_token": "",
+  "auto_install_dependencies": true,
+  "startup_config": {
+    "main_file": "bot.py",
+    "alternative_files": [
+      "main.py",
+      "start.py",
+      "run.py"
+    ],
+    "required_packages": [
+      "discord.py"
+    ]
+  }
+}
